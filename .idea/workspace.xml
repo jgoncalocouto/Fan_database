@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed02d67c-ddd0-4dd2-98f6-3a340666067a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YO6WyxhCgVHahAi8mxh0nsisQk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoãoGonçaloCouto\PycharmProjects\fan_selector\venv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoãoGonçaloCouto\PycharmProjects\fan_selector" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.database_creator">
+    <configuration name="database_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_creator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_alternative_fans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_alternative_fans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flowrate_sound_predictor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flowrate_sound_predictor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sound_level_working_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sound_level_working_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="working_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fan_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\JoãoGonçaloCouto\PycharmProjects\fan_selector\venv\working_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.database_creator" />
+      <item itemvalue="Python.find_alternative_fans" />
+      <item itemvalue="Python.flowrate_sound_predictor" />
+      <item itemvalue="Python.sound_level_working_point" />
+      <item itemvalue="Python.working_point" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.database_creator" />
+        <item itemvalue="Python.database_creator" />
+        <item itemvalue="Python.sound_level_working_point" />
+        <item itemvalue="Python.sound_level_working_point" />
+        <item itemvalue="Python.find_alternative_fans" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed02d67c-ddd0-4dd2-98f6-3a340666067a" name="Default Changelist" comment="" />
+      <created>1582801328512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582801328512</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1055" y="393" key="FileChooserDialogImpl" timestamp="1596109572663">
+      <screen x="147" y="0" width="2413" height="1440" />
+    </state>
+    <state x="811" y="295" key="FileChooserDialogImpl/142.0.1778.1080@142.0.1778.1080" timestamp="1594397255234" />
+    <state x="814" y="295" key="FileChooserDialogImpl/147.0.1773.1080@147.0.1773.1080" timestamp="1595507799389" />
+    <state x="1055" y="393" key="FileChooserDialogImpl/147.0.2413.1440@147.0.2413.1440" timestamp="1596109572663" />
+    <state width="895" height="549" key="XDebugger.FullValuePopup" timestamp="1595408379772">
+      <screen x="147" y="0" width="1773" height="1080" />
+    </state>
+    <state width="1220" height="731" key="XDebugger.FullValuePopup/142.0.2418.1440@142.0.2418.1440" timestamp="1593702035343" />
+    <state width="895" height="549" key="XDebugger.FullValuePopup/147.0.1773.1080@147.0.1773.1080" timestamp="1595408379772" />
+    <state width="888" height="548" key="XDebugger.FullValuePopup/160.0.1760.1080@160.0.1760.1080" timestamp="1592902347977" />
+    <state x="665" y="85" width="737" height="909" key="find.popup" timestamp="1595410124418">
+      <screen x="147" y="0" width="1773" height="1080" />
+    </state>
+    <state x="665" y="85" width="737" height="909" key="find.popup/147.0.1773.1080@147.0.1773.1080" timestamp="1595410124418" />
+    <state x="782" y="244" width="680" height="510" key="search.everywhere.popup" timestamp="1593770080459">
+      <screen x="142" y="0" width="1778" height="1080" />
+    </state>
+    <state x="792" y="244" width="672" height="509" key="search.everywhere.popup/-896.-2160.2454.1440/159.0.1761.1080@159.0.1761.1080" timestamp="1591971496290" />
+    <state x="782" y="244" width="680" height="510" key="search.everywhere.popup/142.0.1778.1080@142.0.1778.1080" timestamp="1593770080459" />
+    <state x="1012" y="325" width="924" height="680" key="search.everywhere.popup/142.0.2418.1440@142.0.2418.1440" timestamp="1593762994605" />
+    <state x="1022" y="325" width="672" height="678" key="search.everywhere.popup/159.0.2401.1440@159.0.2401.1440" timestamp="1591872263381" />
+    <state x="793" y="244" width="672" height="510" key="search.everywhere.popup/160.0.1760.1080@160.0.1760.1080" timestamp="1592917737312" />
+    <state x="1023" y="325" width="916" height="679" key="search.everywhere.popup/160.0.2400.1440@160.0.2400.1440" timestamp="1592398670375" />
+  </component>
+</project>
