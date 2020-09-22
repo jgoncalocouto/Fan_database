@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed02d67c-ddd0-4dd2-98f6-3a340666067a" name="Default Changelist" comment="" />
+    <list default="true" id="ed02d67c-ddd0-4dd2-98f6-3a340666067a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selection.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selector.xlsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YO6WyxhCgVHahAi8mxh0nsisQk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -40,7 +51,25 @@
       <recent name="C:\Users\JoãoGonçaloCouto\PycharmProjects\fan_selector" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.database_creator">
+  <component name="RunManager" selected="Python.Fan_workingpoint">
+    <configuration name="Fan_workingpoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="database_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fan_selector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,27 +83,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_creator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="find_alternative_fans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fan_selector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_alternative_fans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,18 +156,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.database_creator" />
-      <item itemvalue="Python.find_alternative_fans" />
       <item itemvalue="Python.flowrate_sound_predictor" />
       <item itemvalue="Python.sound_level_working_point" />
       <item itemvalue="Python.working_point" />
+      <item itemvalue="Python.Fan_workingpoint" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Fan_workingpoint" />
         <item itemvalue="Python.database_creator" />
         <item itemvalue="Python.database_creator" />
         <item itemvalue="Python.sound_level_working_point" />
         <item itemvalue="Python.sound_level_working_point" />
-        <item itemvalue="Python.find_alternative_fans" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +185,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1069" y="348" key="#case" timestamp="1600767292598">
+      <screen x="137" y="0" width="2423" height="1440" />
+    </state>
+    <state x="1069" y="348" key="#case/4046.925.1714.1080/137.0.2423.1440@137.0.2423.1440" timestamp="1600767292598" />
     <state x="1055" y="393" key="FileChooserDialogImpl" timestamp="1596109572663">
       <screen x="147" y="0" width="2413" height="1440" />
     </state>
@@ -196,10 +208,8 @@
     <state x="782" y="244" width="680" height="510" key="search.everywhere.popup" timestamp="1593770080459">
       <screen x="142" y="0" width="1778" height="1080" />
     </state>
-    <state x="792" y="244" width="672" height="509" key="search.everywhere.popup/-896.-2160.2454.1440/159.0.1761.1080@159.0.1761.1080" timestamp="1591971496290" />
     <state x="782" y="244" width="680" height="510" key="search.everywhere.popup/142.0.1778.1080@142.0.1778.1080" timestamp="1593770080459" />
     <state x="1012" y="325" width="924" height="680" key="search.everywhere.popup/142.0.2418.1440@142.0.2418.1440" timestamp="1593762994605" />
-    <state x="1022" y="325" width="672" height="678" key="search.everywhere.popup/159.0.2401.1440@159.0.2401.1440" timestamp="1591872263381" />
     <state x="793" y="244" width="672" height="510" key="search.everywhere.popup/160.0.1760.1080@160.0.1760.1080" timestamp="1592917737312" />
     <state x="1023" y="325" width="916" height="679" key="search.everywhere.popup/160.0.2400.1440@160.0.2400.1440" timestamp="1592398670375" />
   </component>
