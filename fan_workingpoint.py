@@ -3,25 +3,27 @@ import numpy as np
 from database_creator import *
 import matplotlib.pyplot as plt
 
-Vdot_inst=np.array([374.1412,
-555.213,
-750.6173,
-912.852,
-1075.8731,
-1156.4864,])
+Vdot_inst=np.array([
+    356.6244,
+    532.7254,
+    721.7369,
+    878.1878,
+    1036.2305,
+    1115.3166,
+])
 Psat_inst=np.array([
-14.57571429,
-44.43285714,
-86.17285714,
-127.2742857,
-174.5642857,
-203.69,
+    16.88857143,
+    53.50571429,
+    94.56714286,
+    139.5128571,
+    192.4642857,
+    222.0757143,
 ])
 
 df_inst=pd.DataFrame(columns=['Flowrate - [m^3/h]','Static Pressure - [Pa]'],data=np.vstack((Vdot_inst,Psat_inst)).transpose())
 
-fan_reference='9GV0824P1G03'
-N_fans=3
+fan_reference='9GT0924P1M001'
+N_fans=8
 
 database=import_database(database_path)
 

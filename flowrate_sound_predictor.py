@@ -42,7 +42,7 @@ def PWM_predictor(ref,N,database,Vdot_target,Vdot_inst,Psat_inst,SPL_othersource
     return PWM,Vdot,Psat,SPL,SPL_error_up,SPL_error_dwn
 
 
-database_path='fan_database/fan_database_new/'
+database_path='fan_database/'
 df=import_fan_data(database_path,'sanyo denki_test''.xlsx')
 rho=1.2
 
