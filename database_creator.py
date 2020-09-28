@@ -651,12 +651,12 @@ def inspect_solution(ref,database,df_solution,f_inst,f_min,f_mean,f_max,plot='On
         plt.legend()
 
 
-def hydraulic_working_point(Vdot_inst,Psat_inst,Vdot_fan,Psat_fan,plot='off'):
+def hydraulic_working_point(Vdot_inst,Psat_inst,Vdot_fan,Psat_fan,plot='off',N=1):
     f_inst = interpolate.CubicSpline(Vdot_inst, Psat_inst, axis=0, bc_type='not-a-knot', extrapolate=True)
-    f_fan=interpolate.interp1d(Vdot_fan, Psat_fan, fill_value='extrapolate')
+    f_fan=interpolate.interp1d(Vdot_fan*N, Psat_fan, fill_value='extrapolate')
 
-    start=min([min(Vdot_inst),min(Vdot_fan)])
-    stop = max([max(Vdot_inst), max(Vdot_fan)])
+    start=min([min(Vdot_inst),min(Vdot_fan*N)])
+    stop = max([max(Vdot_inst), max(Vdot_fan*N)])
     step=(stop-start)/10000
     Vdot=np.arange(start,stop,step)
 
@@ -674,8 +674,8 @@ def hydraulic_working_point(Vdot_inst,Psat_inst,Vdot_fan,Psat_fan,plot='off'):
         ax.legend()
         ax.set_xlabel('Flowrate - [m^3/h]')
         ax.set_ylabel('Static Pressure - [Pa]')
-        ax.set_title('Working Point Prediction')
-        #ax.set_ylim([0,max(Psat_fan)*1.1])
+        ax.set_title('Working Point Prediction: N_fans = '+str(N))
+        ax.set_ylim([0,max(Psat_fan)*1.1])
 
     return working_point_Vdot,working_point_Psat
 

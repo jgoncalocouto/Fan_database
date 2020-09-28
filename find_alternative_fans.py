@@ -10,8 +10,6 @@ df_flow=database['flow']
 df_rpm=database['rpm']
 df_sound=database['sound']
 
-df_database=df_database[df_database['Supplier']=='Delta Eletronics']
-
 
 
 v,f_min,f_mean,f_max=normalized_fans(database,plot='off')
@@ -127,10 +125,5 @@ df_sol=pd.merge(df_sol, df_database)
 typologies_to_remove=['Centrifugal Fan','Splash Proof Centrifugal Fan','Blower']
 for typology in typologies_to_remove:
     df_sol = df_sol[df_sol['Typology'] != typology]
-
-#df_sol.to_csv(r'C:\Users\JoãoGonçaloCouto\selection.csv', index=False)
-
-
-#ref=df_sol['Model'].unique()[0]
 
 inspect_solution('EFB1324SHE-EP',database,df_sol,f_inst,f_min,f_mean,f_max,plot='On')

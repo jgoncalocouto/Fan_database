@@ -22,12 +22,12 @@ Psat_inst=np.array([
 
 df_inst=pd.DataFrame(columns=['Flowrate - [m^3/h]','Static Pressure - [Pa]'],data=np.vstack((Vdot_inst,Psat_inst)).transpose())
 
-fan_reference='9GT0924P1M001'
-N_fans=8
+fan_reference='9GT1224P1S001'
+N_fans=3
 
 database=import_database(database_path)
 
 df_fan=fan_characteristic(database,fan_reference,'PWM',100)
 
-df_sol=hydraulic_working_point(Vdot_inst,Psat_inst,df_fan['Vdot']*N_fans,df_fan['Psat'],plot='on')
+df_sol=hydraulic_working_point(Vdot_inst,Psat_inst,df_fan['Vdot'],df_fan['Psat'],plot='on',N=N_fans)
 

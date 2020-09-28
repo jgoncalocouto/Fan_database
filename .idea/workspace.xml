@@ -3,18 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ed02d67c-ddd0-4dd2-98f6-3a340666067a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fan_database/sanyo denki_flow.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/fan_database/sanyo denki_flow.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_creator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fan_database/sanyo denki_full.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/fan_database/sanyo denki_full.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fan_database/sanyo denki_rpm.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/fan_database/sanyo denki_rpm.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fan_database/sanyo denki_sound.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/fan_database/sanyo denki_sound.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fan_database_selector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fan_functions.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fan_workingpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/fan_workingpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flowrate_sound_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/flowrate_sound_predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hmi_ventilation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpm_working_point.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soundlevel_estimator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/working_point.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_alternative_fans.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_alternative_fans.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,7 @@
       <recent name="C:\Users\JoãoGonçaloCouto\PycharmProjects\fan_selector" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.soundlevel_estimator">
+  <component name="RunManager" selected="Python.flowrate_sound_predictor">
     <configuration name="database_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fan_selector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,6 +77,9 @@
       <module name="fan_selector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -99,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hmi_ventilation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_alternative_fans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fan_selector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +103,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hmi_ventilation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_alternative_fans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flowrate_sound_predictor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fan_selector" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flowrate_sound_predictor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,38 +148,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="soundlevel_estimator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fan_selector" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/soundlevel_estimator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.find_alternative_fans" />
       <item itemvalue="Python.fan_workingpoint" />
       <item itemvalue="Python.database_creator" />
       <item itemvalue="Python.sound_level_working_point" />
-      <item itemvalue="Python.hmi_ventilation" />
-      <item itemvalue="Python.soundlevel_estimator" />
+      <item itemvalue="Python.flowrate_sound_predictor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.soundlevel_estimator" />
+        <item itemvalue="Python.flowrate_sound_predictor" />
         <item itemvalue="Python.sound_level_working_point" />
-        <item itemvalue="Python.soundlevel_estimator" />
-        <item itemvalue="Python.hmi_ventilation" />
+        <item itemvalue="Python.find_alternative_fans" />
         <item itemvalue="Python.fan_workingpoint" />
+        <item itemvalue="Python.database_creator" />
       </list>
     </recent_temporary>
   </component>
